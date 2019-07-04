@@ -12,7 +12,7 @@ import java.util.HashMap;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value = "")
+    @RequestMapping("/")
     public String index(Model model) {
 
         HashMap<String, String> actionChoices = new HashMap<>();
